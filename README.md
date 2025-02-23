@@ -1,3 +1,7 @@
+# Geospatial data manipulation and visualisation
+
+![alt text](https://github.com/symmy596/Scipy2025/blob/main/scipy_image.png) 
+
 ## Download Tutorial Materials
 
 This GitHub repository is all that is needed in terms of tutorial content. The simplest solution is to download the material using this link:
