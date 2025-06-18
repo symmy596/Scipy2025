@@ -4,3 +4,5 @@ forests_rivers.jpeg
 **/*.ipynb_checkpoints
 resources/ETOPO1_Bed_g_geotiff.tif
 resources/gm_ve_v1.tif
+resources/a00000009*
+resources/rivers.geojson

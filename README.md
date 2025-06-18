@@ -14,22 +14,26 @@ If you are familiar with Git, you can also clone this repository with:
 $ git clone https://github.com/symmy596/Scipy2025.git
 ```
 
-It will create a new folder named `Scipy-2025` with all the content you will need.
+It will create a new folder named `Scipy2025` with all the content you will need.
 
 There are a number of datasets required for these tutorials. These will need to all be downloaded prior to the tutorial and placed in the resources folder.
 
 
-#### Tutorial 1 Forests
+#### Tutorial 1 Vector Data
 
-- [Forests Density Raster](https://github.com/globalmaps/gm_ve_v1)
-- [Natural Earth Country Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_cultural/ne_10m_admin_0_countries.shp)
+- [Hydrorivers](https://www.hydrosheds.org/products/hydrorivers)
+- [Hydrobasins](https://www.hydrosheds.org/products/hydrobasins)
+- [Natural Earth Country Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_cultural/ne_10m_admin_0_countries.shps)
 
-#### Tutorial 2 Polygons
+#### Tutorial 2 Raster
 
-- [Hydrosheds Rivers](https://www.hydrosheds.org/products/hydrorivers)
-- [Natural Earth Country Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_cultural/ne_10m_admin_0_countries.shp)
-- [Natural Earth Lake Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_physical/ne_10m_lakes.shp)
-- [Jydrosheds River Basins](https://www.hydrosheds.org/products/hydrobasins)
+- [Forests](https://github.com/globalmaps/gm_ve_v1)
+- [Natural Earth Country Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_cultural/ne_10m_admin_0_countries.shps)
+
+#### Tutorial 3 Advanced Rasters
+
+- [Topography](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/georeferenced_tiff/)
+- [Natural Earth Country Boundaries](https://github.com/nvkelso/natural-earth-vector/blob/master/10m_cultural/ne_10m_admin_0_countries.shps)
 
 
 ### Install Packages
@@ -46,6 +50,7 @@ The following libraries are required to run the workshop
 - cartopy==0.20.2
 - rasterio==1.2.10
 - rioxarray==0.11.1
+- gdal==3.5.2
 
 If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
